@@ -156,10 +156,22 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     color: inherit;
     margin-bottom: 2px;
-    transition: font-size 0.3s;
 }
 
 .reading:hover, .assignmentWidget:hover {
     color: #046307;
-    font-size: 20px;
+}
+
+.assignmentWidget .assignment-title {
+    float: left;
+}
+
+.assignmentWidget .grade {
+    float: right;
+    height: 100%;
+}
+
+.lab-box, .prep-box {
+    width: auto;
+    overflow: auto;
 }
