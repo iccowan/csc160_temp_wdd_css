@@ -138,6 +138,7 @@ h1, h2, h3, h4, h5, h6 {
     border-width: 1px;
     border-color: inherit;
     border-radius: 5px;
+    margin-bottom: 5px;
 }
 
 .reading-box:empty, .lab-box:empty, .prep-box:empty {
