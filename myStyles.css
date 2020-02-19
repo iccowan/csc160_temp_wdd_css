@@ -224,6 +224,7 @@ input[type=submit]:hover {
     overflow: visible;
     transition: max-height 1s ease-in;
     cursor: default;
+    margin-bottom: 20px;
 }
 
 .partners {
@@ -263,5 +264,6 @@ input[type=submit]:hover {
 
 .partners .person_info {
     margin-top: 20px;
+    margin-bottom: 10px;
     height: 10%;
 }
