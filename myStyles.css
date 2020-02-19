@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 5px;
 }
 
-.reading-box {
+.reading-box, .lab-box, .prep-box {
     padding: 5px;
     border-style: solid;
     border-width: 1px;
@@ -140,8 +140,13 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 5px;
 }
 
+.reading-box:empty, .lab-box:empty, .prep-box:empty {
+    display: none;
+}
+
 .assignment-label {
     font-size: 16px;
     font-style: italic;
     float: left;
+    margin-right: 20px;
 }
