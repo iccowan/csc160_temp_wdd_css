@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow|Noto+Serif&display=swap');
+
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
 .header {
     background-color: floralwhite;
     position: sticky;
@@ -8,6 +14,10 @@
     border-bottom-width: 1px;
     border-bottom-style: solid;
     padding-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Noto Serif', serif;
 }
 
 .person_image {
