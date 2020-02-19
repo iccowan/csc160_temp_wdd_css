@@ -56,8 +56,18 @@ body {
     display: block;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .title {
     font-family: 'Noto Serif', serif;
+}
+
+.title {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
 }
 
 .person_image {
@@ -174,4 +184,36 @@ h1, h2, h3, h4, h5, h6 {
 .lab-box, .prep-box {
     width: auto;
     overflow: auto;
+}
+
+input {
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 50%;
+    display: block;
+    margin-top: 5px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input:focus {
+    background: #f0efed;
+}
+
+input[type=submit] {
+    width: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: #f0efed;
+    cursor: pointer;
 }
