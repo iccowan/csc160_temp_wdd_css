@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 5px;
 }
 
-.reading-box:blank, .lab-box:blank, .prep-box:blank {
+.reading-box:empty, .lab-box:empty, .prep-box:empty {
     display: none;
 }
 
@@ -150,4 +150,15 @@ h1, h2, h3, h4, h5, h6 {
     font-style: italic;
     float: left;
     margin-right: 20px;
+}
+
+.day-box a {
+    background-color: #8e4585;
+    text-decoration: none;
+    color: inherit;
+    margin-bottom: 2px;
+}
+
+.day-box a:hover {
+    color: #046307;
 }
