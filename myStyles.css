@@ -33,12 +33,12 @@ body {
     position: absolute;
     z-index: 1;
     bottom: 1.2em;
-    transform: translateX(-20px);
-    background-color: lightblue;
+    transform: translateX(-20px) rotate(-30deg);
+    background-color: gold;
     border-radius: 100%;
     border-width: 3px;
     border-style: solid;
-    border-color: lightblue;
+    border-color: gold;
 }
 
 .header .sound {
@@ -90,8 +90,39 @@ h1, h2, h3, h4, h5, h6 {
     color: gold;
 }
 
+/* Body */
+
 #special3 ~ * {
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 20px;
+}
+
+/* Mostly Home */
+.day_box {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+.PREP {
+    background-color: floralwhite;
+    color: black;
+}
+
+.CURRENT {
+    background-color: gold;
+    color: black;
+}
+
+.COMPLETED {
+    background-color: black;
+    color: gold;
+}
+
+.day_box .day {
+    font-size: 16px;
+    font-style: italic
 }
