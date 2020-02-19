@@ -32,11 +32,18 @@ body {
     display: inline;
     position: absolute;
     z-index: 1;
-    bottom: 0;
+    bottom: 1.2em;
+    transform: translateX(-20px);
+    background-color: lightblue;
+    border-radius: 100%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: lightblue;
 }
 
 .header .sound {
     z-index: 11;
+    bottom: 45px;
 }
 
 .sound:hover {
