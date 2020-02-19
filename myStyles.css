@@ -20,5 +20,11 @@
     border-color: black;
     border-width: 1px;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: lightgray;
 }
