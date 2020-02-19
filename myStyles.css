@@ -1,10 +1,24 @@
-.header 
-{
-    background-color: aqua;
-    position: fixed;
+body {
+    
 }
 
-.person_image
-{
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 18px;
+}
+
+.person_image {
     width: 100px;
+}
+
+.nav a {
+    background-color: blue;
+    padding: 5px 10px 5px 10px;
+    margin-left: 10px;
+    border-style: solid;
+    border-color: black;
+    border: 1px;
+    font-size: 14px;
 }
