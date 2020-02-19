@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: font-size 0.3s;
 }
 
-.reading:hover, .assignment-link:hover {
+.reading:hover, .assignmentWidget:hover {
     color: #046307;
     font-size: 20px;
 }
