@@ -1,0 +1,10 @@
+.header 
+{
+    background-color: aqua;
+    position: fixed;
+}
+
+.person_image
+{
+    width: 100px;
+}
