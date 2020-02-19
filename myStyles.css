@@ -141,9 +141,8 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 5px;
 }
 
-.reading-box:empty, .lab-box:empty, .prep-box:empty {
+.reading-box:blank, .lab-box:blank, .prep-box:blank {
     display: none;
-    border: none;
 }
 
 .assignment-label {
