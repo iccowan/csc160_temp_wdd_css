@@ -221,7 +221,7 @@ input[type=submit]:hover {
 
 .partners:hover {
     max-height: 1000px;
-    overflow: visible;
+    overflow: hidden;
     transition: max-height 1s ease-in;
     cursor: default;
     margin-bottom: 20px;
