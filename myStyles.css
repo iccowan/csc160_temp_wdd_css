@@ -218,3 +218,48 @@ input[type=submit]:hover {
     background-color: #f0efed;
     cursor: pointer;
 }
+
+.partners:hover {
+    max-height: 500px;
+    transition: max-height 1s ease-in;
+}
+
+.partners {
+    font-size: 18px;
+    height: auto;
+    max-height: 18px;
+    transition: max-height 1s ease-out;
+    overflow: hidden;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    height: auto;
+    max-height: 18px;
+    transition: max-height 1s ease-out;
+}
+
+.partners a {
+    text-decoration: none;
+    background-color: gold;
+    color: black;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+.partners .sound {
+    width: 15px;
+    height: 15px;
+    transform: translateX(-10px) rotate(-30deg);
+}
+
+.partners img {
+    width: 50px;
+}
+
+.partners .person_info {
+    margin-top: 20px;
+    height: 10%;
+}
