@@ -11,11 +11,16 @@ body {
     top: 0;
     width: 100%;
     font-size: 32px;
-    padding-top: 1px;
+    padding-top: 10px;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     padding-bottom: 20px;
     text-align: center;
+}
+
+.sound {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/21/Speaker_Icon.svg);
+    width: 30px;
 }
 
 .username {
@@ -35,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav {
-    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .nav a {
@@ -51,14 +56,6 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
     float: right;
 }
-
-/*
-.nav a:last-child {
-    border-right-style: solid;
-    border-right-color: white;
-    border-right-width: 2px;
-}
-*/
 
 .nav a:hover {
     background-color: black;
