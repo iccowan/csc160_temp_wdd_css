@@ -20,7 +20,10 @@ body {
 
 .sound {
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/21/Speaker_Icon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 30px;
+    height: 30px;
 }
 
 .username {
