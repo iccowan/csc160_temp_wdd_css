@@ -15,6 +15,7 @@ body {
     border-bottom-width: 1px;
     border-bottom-style: solid;
     padding-bottom: 20px;
+    text-align: center;
 }
 
 .username {
@@ -48,13 +49,16 @@ h1, h2, h3, h4, h5, h6 {
     color: black;
     text-decoration: none;
     margin: 0;
+    float: right;
 }
 
+/*
 .nav a:last-child {
     border-right-style: solid;
     border-right-color: white;
     border-right-width: 2px;
 }
+*/
 
 .nav a:hover {
     background-color: black;
