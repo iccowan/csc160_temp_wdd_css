@@ -34,11 +34,17 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: auto;
 }
 
+.nav {
+    margin-left: 10px;
+}
+
 .nav a {
     background-color: gold;
     padding: 5px 10px 5px 10px;
     border-width: 2px;
     border-color: transparent;
+    border-style: solid;
+    background-clip: padding-box;
     font-size: 18px;
     color: black;
     text-decoration: none;
