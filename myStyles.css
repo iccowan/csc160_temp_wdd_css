@@ -312,6 +312,12 @@ div.login .username {
 }
 
 .grade-table {
+    background-color: floralwhite;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 5px;
     width: -webkit-fill-available;
 }
 
@@ -327,7 +333,6 @@ div.login .username {
 
 .grade-table td {
     padding: 10px;
-    border-radius: 5px;
 }
 
 .prompt {
