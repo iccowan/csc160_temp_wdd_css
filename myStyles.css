@@ -291,3 +291,65 @@ div.login .person_info .username {
 div.login .username {
     text-align: left;
 }
+
+*:not(div) > .assignment-title {
+    font-family: 'Noto Serif', serif;
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.prompt {
+    background: floralwhite;
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.grade-table {
+    width: -webkit-fill-available;
+}
+
+.grade-table tr:nth-child(odd) {
+    background-color: gold;
+}
+
+.grade-table tr:nth-child(even) {
+    background-color: black;
+    color: gold;
+    border-color: white;
+}
+
+.grade-table td {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.prompt {
+    background: floralwhite;
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+iframe {
+    width: -webkit-fill-available;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.view_text {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: floralwhite;
+}
