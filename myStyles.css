@@ -267,3 +267,22 @@ input[type=submit]:hover {
     margin-bottom: 10px;
     height: 10%;
 }
+
+input[readonly=true] {
+    background: #dddd;
+    color: rgba(0,0,0,0.5);
+    cursor: default;
+}
+
+div.login div.username {
+    font-family: inherit;
+}
+
+div.login .person_info .username {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    margin-bottom: 10px;
+}
+div.login .username {
+    text-align: left;
+}
