@@ -1,5 +1,5 @@
 Temporary CSS for CSC-160
 ===============
-The website is painful to look at without any formatting, so this is a temporary format for it.
+WDD Temporary CSS for CSC-160. This is a replacement for the "broken" CSS for the class website.
 
 Ian Cowan & Dean Cochran
