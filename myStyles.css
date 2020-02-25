@@ -395,9 +395,3 @@ h1 {
     outline: ridge;
     -webkit-margin-before-collapse: separate;
 }
-
-body div .assignment-title{
-    background: gold;
-    outline: ridge;
-    -webkit-margin-before-collapse: separate;
-}
