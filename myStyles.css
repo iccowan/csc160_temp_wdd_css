@@ -417,8 +417,19 @@ h1,h3 {
     padding-left: 10px;
 }
 
+<<<<<<< HEAD
 .grade {
     padding-top: 10px;
     background: floralwhite;
     border-style: outset;
 }
+=======
+h1 {
+    outline: none;
+    border-style: ridge;
+    border-color: red;
+    border-width: 3px;
+    border-radius: 5px;
+}
+
+>>>>>>> 443e00905d8ecdca5610bbe8972f79a47117dc66
