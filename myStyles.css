@@ -396,7 +396,7 @@ h1 {
     -webkit-margin-before-collapse: separate;
 }
 
-.assignment-title {
+body div .assignment-title{
     background: gold;
     outline: ridge;
     -webkit-margin-before-collapse: separate;
