@@ -319,7 +319,7 @@ div.login .username {
     font-weight: bold;
 }
 
-.prompt, .assignment_prompt, .question p, .rubric_score {
+.prompt, .assignment_prompt, .question p, .rubric_score, .rubric_comments {
     background: floralwhite;
     border-width: 1px;
     border-style: solid;
@@ -327,11 +327,11 @@ div.login .username {
     border-radius: 5px;
 }
 
-.assignment_prompt {
+.assignment_prompt, .rubric_score {
     margin-bottom: 20px;
 }
 
-.rubric_score span {
+.rubric_score span, .rubric_comments span {
     font-size: 18px;
     font-style: italic;
     display: block;
@@ -421,3 +421,4 @@ h1 {
     outline: ridge;
     -webkit-margin-before-collapse: separate;
 }
+
