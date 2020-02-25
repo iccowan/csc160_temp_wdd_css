@@ -410,15 +410,11 @@ table tr td {
     border-color: lightgrey;
 }
 
-h3 {
+h1,h3 {
     background: gold;
     outline: ridge;
-    -webkit-margin-before-collapse: separate;
-}
-
-h1 {
-    background: gold;
-    outline: ridge;
+    outline-color: red;
+    padding-left: 10px;
     -webkit-margin-before-collapse: separate;
 }
 
