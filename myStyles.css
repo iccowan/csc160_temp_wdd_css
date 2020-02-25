@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6, .title {
 }
 
 .reading:hover, .assignmentWidget:hover {
-    color: #046307;
+    color: black;
 }
 
 .assignmentWidget .assignment-title {
@@ -417,13 +417,6 @@ h1,h3 {
     padding-left: 10px;
 }
 
-<<<<<<< HEAD
-.grade {
-    padding-top: 10px;
-    background: floralwhite;
-    border-style: outset;
-}
-=======
 h1 {
     outline: none;
     border-style: ridge;
@@ -431,6 +424,7 @@ h1 {
     border-width: 3px;
     border-radius: 5px;
 }
+<<<<<<< HEAD
 
 body {
     background-image: url("https://pngimg.com/uploads/ironman/ironman_PNG60.png");
@@ -438,3 +432,5 @@ body {
     background-repeat: no-repeat;
     background-position: right;
 }
+=======
+>>>>>>> f91beb3d14d760a05876aa523b4e6509c616aa4b
