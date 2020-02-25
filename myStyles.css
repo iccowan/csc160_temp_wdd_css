@@ -407,14 +407,18 @@ table tr:nth-child(n+2) {
 
 table tr td {
     border-style: outset;
-    border-color: black;
 }
 
 h1,h3 {
     background: gold;
+    border-style: outset;
     outline: ridge;
     outline-color: red;
     padding-left: 10px;
-    -webkit-margin-before-collapse: separate;
 }
 
+.grade {
+    padding-top: 10px;
+    background: floralwhite;
+    border-style: outset;
+}
