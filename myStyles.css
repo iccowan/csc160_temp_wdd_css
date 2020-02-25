@@ -384,7 +384,13 @@ table tr td {
     border-color: lightgrey;
 }
 
-h1,h3 {
+h3 {
+    background: gold;
+    outline: ridge;
+    -webkit-margin-before-collapse: separate;
+}
+
+h1 {
     background: gold;
     outline: ridge;
     -webkit-margin-before-collapse: separate;
