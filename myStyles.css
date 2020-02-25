@@ -360,3 +360,32 @@ iframe {
     border-radius: 5px;
     background-color: floralwhite;
 }
+
+table{
+    border-style: inset;
+    border-color: lightgray;
+    width: -webkit-fill-available;
+}
+
+table tbody tr:nth-child(1) {
+    background-color: gold;
+}
+
+table tr:nth-child(n+2) {
+    background-color: floralwhite;
+}
+
+table tr td:nth-child(n+1) {
+    padding-left: 10%;
+}
+
+table tr td {
+    border-style: outset;
+    border-color: lightgrey;
+}
+
+h3 {
+    background: gold;
+    outline: ridge;
+    -webkit-margin-before-collapse: separate;
+}
