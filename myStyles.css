@@ -375,10 +375,6 @@ table tr:nth-child(n+2) {
     background-color: floralwhite;
 }
 
-table tr td:nth-child(n+1) {
-    padding-left: 10%;
-}
-
 table tr td {
     border-style: outset;
     border-color: lightgrey;
