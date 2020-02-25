@@ -1,7 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Barlow|Noto+Serif&display=swap');
+/*@import url('https://fonts.googleapis.com/css?family=Barlow|Noto+Serif&display=swap');*/
+
+@font-face {
+    font-family: "Stark";
+    src: url(Stark.ttf);
+}
 
 body {
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Stark', sans-serif;
     margin: 0;
     overflow-wrap: break-word;
 }
@@ -52,13 +57,13 @@ body {
 }
 
 .username {
-    font-family: 'Noto Serif', serif;
+    font-family: 'Stark', serif;
     text-align: center;
     display: block;
 }
 
 h1, h2, h3, h4, h5, h6, .title {
-    font-family: 'Noto Serif', serif;
+    font-family: 'Stark', serif;
 }
 
 .title {
@@ -298,7 +303,7 @@ div.login .username {
 }
 
 *:not(div) > .assignment-title {
-    font-family: 'Noto Serif', serif;
+    font-family: 'Stark', serif;
     display: block;
     font-size: 2em;
     margin-top: 0.67em;
@@ -309,7 +314,7 @@ div.login .username {
 }
 
 .assignment_title {
-    font-family: 'Noto Serif', serif;
+    font-family: 'Stark', serif;
     display: block;
     font-size: 2em;
     margin-top: 0.67em;
@@ -425,4 +430,3 @@ h1 {
     border-width: 3px;
     border-radius: 5px;
 }
-
