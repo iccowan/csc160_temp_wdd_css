@@ -187,13 +187,17 @@ h1, h2, h3, h4, h5, h6, .title {
     overflow: auto;
 }
 
-input {
+input, textarea {
     padding: 5px;
     border-radius: 5px;
     font-size: 14px;
     width: 50%;
     display: block;
     margin-top: 5px;
+}
+
+textarea {
+    width: -webkit-fill-available;
 }
 
 label {
@@ -304,12 +308,42 @@ div.login .username {
     font-weight: bold;
 }
 
-.prompt {
+.assignment_title {
+    font-family: 'Noto Serif', serif;
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.prompt, .assignment_prompt, .question p, .rubric_score {
     background: floralwhite;
     border-width: 1px;
     border-style: solid;
     padding: 10px;
     border-radius: 5px;
+}
+
+.assignment_prompt {
+    margin-bottom: 20px;
+}
+
+.rubric_score span {
+    font-size: 18px;
+    font-style: italic;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.rubric_score table td, .rubric_score table th {
+    padding: 5px;
+}
+
+.rubric_score table {
+    border: none;
 }
 
 .grade-table {
@@ -334,14 +368,6 @@ div.login .username {
 
 .grade-table td {
     padding: 10px;
-}
-
-.prompt {
-    background: floralwhite;
-    border-width: 1px;
-    border-style: solid;
-    padding: 10px;
-    border-radius: 5px;
 }
 
 iframe {
