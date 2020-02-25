@@ -389,7 +389,7 @@ iframe {
 
 table{
     border-style: inset;
-    border-color: black;
+    border-color: red;
     width: -webkit-fill-available;
 }
 
@@ -407,7 +407,7 @@ table tr:nth-child(n+2) {
 
 table tr td {
     border-style: outset;
-    border-color: lightgrey;
+    border-color: black;
 }
 
 h1,h3 {
