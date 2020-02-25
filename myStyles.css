@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6, .title {
 }
 
 .reading:hover, .assignmentWidget:hover {
-    color: #046307;
+    color: black;
 }
 
 .assignmentWidget .assignment-title {
