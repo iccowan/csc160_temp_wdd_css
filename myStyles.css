@@ -90,14 +90,14 @@ h1, h2, h3, h4, h5, h6, .title {
     border-style: solid;
     background-clip: padding-box;
     font-size: 18px;
-    color: black;
+    color: red ;
     text-decoration: none;
     margin: 0;
     float: right;
 }
 
 .nav a:hover {
-    background-color: black;
+    background-color: red;
     color: gold;
 }
 
@@ -121,16 +121,16 @@ h1, h2, h3, h4, h5, h6, .title {
 
 .PREP {
     background-color: floralwhite;
-    color: black;
+    color: red;
 }
 
 .CURRENT {
     background-color: gold;
-    color: black;
+    color: red;
 }
 
 .COMPLETED {
-    background-color: black;
+    background-color: red;
     color: gold;
 }
 
@@ -247,7 +247,7 @@ input[type=submit]:hover {
 .partners a {
     text-decoration: none;
     background-color: gold;
-    color: black;
+    color: red;
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
     font-size: 10px;
@@ -315,7 +315,7 @@ div.login .username {
 .grade-table {
     background-color: floralwhite;
     border-style: solid;
-    border-color: black;
+    border-color: red;
     border-width: 1px;
     border-radius: 5px;
     padding: 5px;
@@ -327,7 +327,7 @@ div.login .username {
 }
 
 .grade-table tr:nth-child(even) {
-    background-color: black;
+    background-color: red;
     color: gold;
     border-color: white;
 }
@@ -355,7 +355,7 @@ iframe {
 .view_text {
     border-style: solid;
     border-width: 1px;
-    border-color: black;
+    border-color: red;
     padding: 10px;
     border-radius: 5px;
     background-color: floralwhite;
