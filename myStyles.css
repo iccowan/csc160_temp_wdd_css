@@ -395,6 +395,7 @@ table{
 
 table tbody tr:nth-child(1) {
     background-color: gold;
+    border-style: outset;
 }
 
 tr td:nth-child(n+2) {
