@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6, .title {
 
 #special1 {
     /* https://pngimg.com/uploads/ironman/ironman_PNG29.png */
-    background-image: url(https://pngimg.com/uploads/ironman/ironman_PNG22.png);
+    background-image: url(ironman-stand.png);
     position: fixed;
     left: 0;
     height: 100px;
@@ -115,6 +115,7 @@ h1, h2, h3, h4, h5, h6, .title {
 
 @keyframes scrollInIronMan {
     0% {
+        /* https://pngimg.com/uploads/ironman/ironman_PNG29.png */
         background-image: url(ironman.png);
         margin-left: 100%;
         margin-top: -50px;
@@ -124,12 +125,14 @@ h1, h2, h3, h4, h5, h6, .title {
     }
     95% {
         margin-top: -80px;
-        background-image: url(https://pngimg.com/uploads/ironman/ironman_PNG4.png);
+        /* https://pngimg.com/uploads/ironman/ironman_PNG4.png */
+        background-image: url(ironman-stop.png);
         background-size: 50px;
     }
     100% {
         margin-top: -50px;
-        background-image: url(https://pngimg.com/uploads/ironman/ironman_PNG22.png);
+        /* https://pngimg.com/uploads/ironman/ironman_PNG22.png */
+        background-image: url(ironman-stand.png);
         background-size: 40px;
     }
 }
