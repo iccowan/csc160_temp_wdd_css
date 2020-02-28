@@ -81,6 +81,7 @@ h1, h2, h3, h4, h5, h6, .title {
 
 .nav {
     margin-right: 20px;
+    animation-delay: 7s;
     animation-name: scrollIn;
     animation-duration: 3s;
 }
@@ -110,7 +111,7 @@ h1, h2, h3, h4, h5, h6, .title {
     z-index: 100;
     
     animation-name: scrollInIronMan;
-    animation-duration: 5s;
+    animation-duration: 7s;
 }
 
 @keyframes scrollInIronMan {
