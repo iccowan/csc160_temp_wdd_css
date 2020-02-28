@@ -80,15 +80,16 @@ h1, h2, h3, h4, h5, h6, .title {
 }
 
 .nav {
-    margin-right: 20px;
-    animation-delay: 7s;
+    margin-right: -600px;
     animation-name: scrollIn;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
     animation-duration: 3s;
 }
 
 @keyframes scrollIn {
     from {
-        margin-right: -700px;
+        margin-right: -600px;
         opacity: 0;
     }
     to {
