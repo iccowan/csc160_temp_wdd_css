@@ -117,16 +117,18 @@ h1, h2, h3, h4, h5, h6, .title {
     0% {
         /* https://pngimg.com/uploads/ironman/ironman_PNG29.png */
         background-image: url(ironman.png);
+        background-size: 100px;
         margin-left: 100%;
         margin-top: -50px;
     }
-    90% {
-        margin-left: 20px;
-        margin-top: -50px;
+    80% {
         /* https://pngimg.com/uploads/ironman/ironman_PNG29.png */
         background-image: url(ironman.png);
+        background-size: 100px;
+        margin-left: 20px;
+        margin-top: -50px;
     }
-    95% {
+    90% {
         margin-top: -80px;
         /* https://pngimg.com/uploads/ironman/ironman_PNG4.png */
         background-image: url(ironman-stop.png);
