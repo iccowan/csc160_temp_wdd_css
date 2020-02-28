@@ -122,6 +122,9 @@ h1, h2, h3, h4, h5, h6, .title {
     }
     90% {
         margin-left: 20px;
+        margin-top: -50px;
+        /* https://pngimg.com/uploads/ironman/ironman_PNG29.png */
+        background-image: url(ironman.png);
     }
     95% {
         margin-top: -80px;
