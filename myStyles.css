@@ -116,18 +116,13 @@ h1, h2, h3, h4, h5, h6, .title {
 @keyframes scrollInIronMan {
     0% {
         background-image: url(ironman.png);
-        right: 0;
-        margin-right: -100px;
+        margin-left: 100%;
     }
-    50% {
-        margin-right: 39em;
+    33% {
+        margin-left: 20%;
     }
-    98% {
-        left: 0;
-        margin-left: 20px;
-    }
-    99% {
-        margin-top: -60px;
+    66% {
+        margin-top: -80px;
         background-image: url(https://pngimg.com/uploads/ironman/ironman_PNG4.png);
         background-size: 50px;
     }
