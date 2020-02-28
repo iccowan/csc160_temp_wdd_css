@@ -100,25 +100,38 @@ h1, h2, h3, h4, h5, h6, .title {
     /* https://pngimg.com/uploads/ironman/ironman_PNG29.png */
     background-image: url(ironman.png);
     position: fixed;
-    right: 0;
+    left: 0;
     height: 100px;
     width: 100px;
     background-size: 100px;
     background-repeat: no-repeat;
     margin-top: -50px;
-    margin-right: 39em;
+    margin-left: 20px;
     z-index: 100;
     
     animation-name: scrollInIronMan;
-    animation-duration: 3s;
+    animation-duration: 5s;
 }
 
 @keyframes scrollInIronMan {
-    from {
+    0% {
+        right: 0;
         margin-right: -100px;
     }
-    to {
+    50% {
         margin-right: 39em;
+    }
+    98% {
+        left: 0;
+        margin-left: 20px;
+    }
+    99% {
+        margin-top: -60px;
+        background-image: url(https://pngimg.com/uploads/ironman/ironman_PNG4.png);
+    }
+    100% {
+        margin-top: -50px;
+        background-image: url(https://pngimg.com/uploads/ironman/ironman_PNG22.png);
     }
 }
 
