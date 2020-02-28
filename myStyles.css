@@ -406,6 +406,7 @@ table{
 
 table tbody tr:nth-child(1) {
     background-color: gold;
+    border-style: outset;
 }
 
 tr td:nth-child(n+2) {
@@ -435,3 +436,13 @@ h1 {
     border-width: 3px;
     border-radius: 5px;
 }
+<<<<<<< HEAD
+
+body {
+    background-image: url("https://pngimg.com/uploads/ironman/ironman_PNG60.png");
+    background-size: 30% 35%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+=======
+>>>>>>> f91beb3d14d760a05876aa523b4e6509c616aa4b
