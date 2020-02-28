@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6, .title {
     z-index: 100;
     
     animation-name: scrollInIronMan;
-    animation-duration: 10s;
+    animation-duration: 5s;
 }
 
 @keyframes scrollInIronMan {
