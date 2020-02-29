@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Barlow|Noto+Serif&display=swap');
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css?family=Marvel:700|Nobile:700&display=swap');
 
 body {
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Nobile', sans-serif;
     margin: 0;
     overflow-wrap: break-word;
     overflow-x: hidden;
@@ -53,13 +54,13 @@ body {
 }
 
 .username {
-    font-family: 'Noto Serif', serif;
+    font-family: 'Nobile', sans-serif;
     text-align: center;
     display: block;
 }
 
 h1, h2, h3, h4, h5, h6, .title {
-    font-family: 'Noto Serif', serif;
+    font-family: 'Marvel', sans-serif;
 }
 
 .title {
@@ -360,7 +361,7 @@ div.login .username {
 }
 
 *:not(div) > .assignment-title {
-    font-family: 'Noto Serif', serif;
+    font-family: 'Marvel', sans-serif;
     display: block;
     font-size: 2em;
     margin-top: 0.67em;
@@ -371,7 +372,7 @@ div.login .username {
 }
 
 .assignment_title {
-    font-family: 'Noto Serif', serif;
+    font-family: 'Marvel', sans-serif;
     display: block;
     font-size: 2em;
     margin-top: 0.67em;
