@@ -27,7 +27,7 @@ body {
 }
 
 .sound {
-    background-image: url(https://iccowan.github.io/csc160_temp_wdd_css/speaker.svg);
+    background-image: url(speaker.svg);
     background-size: contain;
     background-repeat: no-repeat;
     width: 30px;
