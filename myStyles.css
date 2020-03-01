@@ -439,6 +439,7 @@ iframe {
     border-radius: 5px;
     border-style: solid;
     border-width: 1px;
+    background-color: white;
 }
 
 .view_text {
@@ -450,7 +451,7 @@ iframe {
     background-color: floralwhite;
 }
 
-table{
+table {
     border-style: inset;
     border-color: red;
     width: -webkit-fill-available;
