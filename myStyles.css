@@ -461,10 +461,6 @@ table tbody tr:nth-child(1) {
     border-style: outset;
 }
 
-tr td:nth-child(n+2) {
-    padding-right: 10%;
-}
-
 table tr:nth-child(n+2) {
     background-color: floralwhite;
 }
